@@ -1,0 +1,20 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = zachvalenta
+	email = zjv5002@gmail.com
+[color]
+	ui = auto
+[alias]
+	chlog = log -n 5 --oneline
+	stat = status -s
+	c = commit -am
+[color "diff"]
+	meta = white bold
+	frag = cyan bold
+	commit = white bold
+	old = red bold
+	new = magenta bold
+	whitespace = red reverse
