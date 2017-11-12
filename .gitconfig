@@ -9,7 +9,10 @@
 	ui = auto
 [alias]
 	chlog = log -n 5 --oneline
-	stat = status -s
+	nb = checkout -b
+	b = branch
+	s = status -s
+	d = diff
 	c = commit -am
 [color "diff"]
 	meta = white bold
